@@ -155,9 +155,78 @@ input::placeholder{
     background: #EFF0F3;
     display: flex;
     width: 470px;
-    padding: 12.874px 18.074px 10.757px 17.649px;
+    padding: 13px 18px 11px 18px;
     justify-content: center;
     align-items: center;
 
 }
+/*.................section categories...............................*/
 
+.categories{
+    padding-top: 67px;
+    height: 500px;
+}
+.categories_header{
+    display: flex;
+    justify-content: space-between;
+}
+.categories_header h2{
+    color:  #2B2C34;
+    font-size: 24px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.categories_header a{
+    color:  #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+
+
+}
+.cards{
+    display: flex;
+    gap: 37px;
+    padding-top: 50px;
+
+}
+.card:nth-child(3){
+    background: #6246EA;
+}
+.card:nth-child(3) p{
+    color:  #FFFFFE;
+}
+
+.icon_background{
+    border-radius: 8px;
+    background: #FFFFFE;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card p{
+    color: #232323;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
