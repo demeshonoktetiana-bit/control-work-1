@@ -9,8 +9,10 @@
 }
 
 .wrapper{
-     width: 1200px;
+    width: 1250px;
     margin: 0 auto;
+
+
 }
 body{
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -19,20 +21,24 @@ body{
 /*................header...................*/
 
 header{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
     height: 86px;
     background: #EFF0F3;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 
 }
 header nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 200px;
+    margin-right: 50px;
+    margin-left: auto;
 
 }
 header nav ul{
@@ -88,7 +94,7 @@ span{
 
 /*.................section....................*/
 
-.subscribe_content{
+.subscribe_content .wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,9 +102,10 @@ span{
     padding-bottom: 263px;
 
 
-
 }
-.subscribe_content h1{
+
+
+.subscribe_content_container h1{
     width: 617px;
     color: #2B2C34;
     font-size: 64px;
@@ -107,7 +114,7 @@ span{
     line-height: normal;
     text-transform: capitalize;
 }
-.subscribe_content p{
+.subscribe_content_container p{
     color: #9A9494;
     width: 652px;
     font-size: 20px;
@@ -158,6 +165,8 @@ input::placeholder{
     padding: 13px 18px 11px 18px;
     justify-content: center;
     align-items: center;
+
+
 
 }
 /*.................section categories...............................*/
@@ -227,6 +236,103 @@ input::placeholder{
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*..................section article.........................................*/
+.featured{
+    background: #FFFFFE;
+
+}
+.featured_header h2{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.cards_featured h3{
+    color: #2B2C34;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.featured_header a{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.featured_header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+.cards_featured{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+.card_author_wrapper{
+    display: flex;
+}
+.card_featured{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.card_featured> img {
+    width: 260px;
+    height: 198px;
+    border-radius: 13px;
+    background: lightgray 50% / cover no-repeat;
+
+}
+.author img{
+    width: 57px;
+    height: 57px;
+    margin-right: 15px;
+}
+.card_featured h3{
+    margin-top: 25px;
+}
+.card_featured:nth-child(1) > h3{
+margin-bottom: 80px;
+}
+.card_featured:nth-child(2) > h3{
+    margin-bottom: 55px;
+}
+.card_featured:nth-child(3) > h3{
+    margin-bottom: 30px;
+}
+.card_featured:nth-child(4) > h3{
+    margin-bottom: 55px;
+}
+.author_name {
+    color: #2B2C34;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.meta{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
 }
