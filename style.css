@@ -654,9 +654,82 @@ margin-bottom: 80px;
 }
 /*..........................footer...................................*/
 
+.footer{
+    background: #E4E5E9;
+    padding: 70px 0;
+}
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #C0C0C0;
+    padding-bottom: 50px;
+}
+
 .wrapper_footer{
     display: flex;
-    justify-content: right;
+    flex-direction: row;
     gap: 95px;
+
+}
+.wrapper_footer h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.wrapper_footer a{
+    color:  #2B2C34;
+    font-size: 18px;
+
+}
+
+
+.logo_footer h3{
+    margin: 20px 0;
+    color: #2B2C34;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.swg_footer{
+    display: flex;
+    gap: 30px;
+}
+
+.logo_footer {
+    color: #001858;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.categories_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_copyrihgt{
+    padding: 26px 95px;
+
 
 }
